@@ -1,0 +1,1 @@
+Proyecto Mercado, está enlazado con la base de datos no relacional: Mongo DB.

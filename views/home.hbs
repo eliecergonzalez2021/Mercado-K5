@@ -1,0 +1,16 @@
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Supermarket K5</a>
+        <img class="nav-img" src="/img/logo.png" alt="icono mercado">
+        
+            
+        
+    </div>
+</nav>    
+<h1>Bienvenido a la WEB K5, seleccione los Productos</h1>
+
+<div class="row">
+    {{#each frutas }}
+        {{> Producto item=this.nombre}}
+    {{/each}}
+</div>
